@@ -10,3 +10,8 @@ test('hello says hello to bob', function(t){
     t.plan(1);
     t.equal(hello('bob'), 'hello bob', 'hello(bob) should be "hello bob"');
 });
+
+test('1 should equal 1', function(t){
+    t.plan(1);
+    t.equal(1, 2, '1 should equal 1');
+});
