@@ -13,5 +13,5 @@ test('hello says hello to bob', function(t){
 
 test('1 should equal 1', function(t){
     t.plan(1);
-    t.equal(1, 2, '1 should equal 1');
+    t.equal(1, 1, '1 should equal 1');
 });
