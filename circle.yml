@@ -1,3 +1,4 @@
 test:
   override:
     - npm run test:circleci
+    - bithound check git@github.com:dearfrankg/cci-test.git
