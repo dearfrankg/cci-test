@@ -5,7 +5,8 @@
   "main": "hello.js",
   "scripts": {
     "test": "testem ci -l node ",
-    "test:circleci": "testem ci -l node | tap-xunit > $CIRCLE_TEST_REPORTS/test_result.xml"
+    "test:circleci": "testem ci -l node | tap-xunit > $CIRCLE_TEST_REPORTS/test_result.xml",
+    "bithound": "bithound check git@github.com:dearfrankg/cci-test.git"
   },
   "keywords": [],
   "author": "Frank Gutierrez",
